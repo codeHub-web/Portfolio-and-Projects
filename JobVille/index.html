@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Opportunities</title>
+    <link rel="stylesheet" href="job-posts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script defer src="job-listing.js"></script>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <h1 onclick="window.location.href='index.html'">JOBVILLE</h1>
+      <a href="https://jobville.liveblog365.com/index.php" class="interview-prep-link">Portfolio Home</a>
+    </header>
+
+    <div class="sub-header">
+      <h1>Explore Our Job Opportunities!</h1>
+    </div>
+
+    <div class="search-bar">
+      <div class="search-input-wrapper">
+        <i class="fas fa-search"></i>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search for a job." />
+      </div>
+    </div>
+
+    <main> 
+      <div class="container" id="job-container">
+        
+      </div>
+      <div id="loadingSpinner" class="loadingSpinner" style="display: none;">
+        <div class="spinner"></div>
+      </div>
+
+      <div class="pagination">
+        <button id="prevPage">Previous</button>
+        <span id="currentPage">Page 1</span>
+        <button id="nextPage">Next</button>
+      </div>
+    </main> 
+
+    <footer class="footing">
+      <h4>COPYRIGHT © 2025 - JOBVILLE</h4>
+    </footer>
+  </div>
+</body>
+
+
+</html>

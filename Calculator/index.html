@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js" defer></script>
+</head>
+
+
+<body>
+
+<div id="heading">
+<h1 id="heading">Simple Calculator</h1>
+</div>
+
+<div id="calculator">
+      <input id="screen" readonly>
+  <div id="buttons-wrapper">
+    <button onclick="divide(), showNum('/')">/</button>
+    <button onclick="showNum(7)">7</button>
+    <button onclick="showNum(8)">8</button>
+    <button onclick="showNum(9)">9</button>
+    <button onclick="add(), showNum('+')">+</button>
+    <button onclick="showNum(4)">4</button>
+    <button onclick="showNum(5)">5</button>
+    <button onclick="showNum(6)">6</button>
+    <button onclick="subtract(), showNum('-')">-</button>
+    <button onclick="showNum(1)">1</button>
+    <button onclick="showNum(2)">2</button>
+    <button onclick="showNum(3)">3</button>
+    <button onclick="multiply(), showNum('*')">*</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="showNum('.')">.</button>
+    <button onclick="showNum(0)">0</button>
+    <button onclick="clearDisplay()">CE</button>
+    <button onclick="backSpace()"><--</button>
+  </div>
+
+</div>
+
+
+
+
+
+
+</body>
+
+</html>
